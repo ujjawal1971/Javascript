@@ -12,6 +12,8 @@ const dc_heroes = ["superman","flash","batman"]
 
 const all_new_heros = [...marvel_heroes,...dc_heroes]
 
+// The spread operator (...) in JavaScript is used to expand iterable objects (like arrays or strings) into individual elements12. 
+//It can be used in function arguments, array literals, and object literals
 // console.log(all_new_heros);
 
 const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
